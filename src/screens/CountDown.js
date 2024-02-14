@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {
   Image,
   Keyboard,
@@ -6,11 +6,11 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
-  View
+  View,
 } from 'react-native';
-import { PauseIcon, PlayIcon } from '../assets';
+import {PauseIcon, PlayIcon} from '../assets';
 import TimerCount from '../components/TimerCount';
-import { styles } from './CountDownCss';
+import {styles} from './CountDownCss';
 
 const CountDown = () => {
   const [min, setMin] = useState('');
@@ -134,7 +134,6 @@ const CountDown = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-
       {/* Enter Time duration View */}
       <View style={styles.inputView}>
         <Text style={styles.headerText}>{'Countdown:'}</Text>

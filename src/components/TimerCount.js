@@ -2,7 +2,6 @@ import {StyleSheet, Text} from 'react-native';
 import React from 'react';
 
 const TimerCount = ({time, blink}) => {
-  
   const remainingTime = remain => {
     const minutes = Math.floor(remain / 60);
     const seconds = remain % 60;
